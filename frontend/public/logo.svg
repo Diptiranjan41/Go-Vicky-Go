@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .text-white { fill: #ffffff; font-size: 36px; font-family: Arial, sans-serif; font-weight: bold; }
+      .text-cyan { fill: #00f0ff; font-size: 36px; font-family: Arial, sans-serif; font-weight: bold; }
+      .plane-path { fill: none; stroke: #00f0ff; stroke-width: 2; stroke-dasharray: 6 4; }
+      .airplane { fill: #00f0ff; }
+    </style>
+  </defs>
+
+  <!-- Dashed flight arc -->
+  <path d="M 60 30 Q 300 -20 540 30" class="plane-path" />
+
+  <!-- Airplane icon -->
+  <g transform="translate(540,30) rotate(10)">
+    <polygon points="0,-5 20,0 0,5 5,0" class="airplane" />
+    <line x1="0" y1="-5" x2="-8" y2="-12" stroke="#00f0ff" stroke-width="2"/>
+    <line x1="0" y1="5" x2="-8" y2="12" stroke="#00f0ff" stroke-width="2"/>
+  </g>
+
+  <!-- Logo Text -->
+  <text x="50" y="120" class="text-white">Go</text>
+  <text x="125" y="120" class="text-cyan">Vicky</text>
+  <text x="245" y="120" class="text-white">Go</text>
+</svg>
