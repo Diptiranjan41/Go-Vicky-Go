@@ -45,7 +45,7 @@ import Chatbot from "./pages/chatbot/chatbot";
 import MyTrips from "./dashboard/my-trips";
 
 // --- Food Pages ---
-import Food from "./bookingPages/Foodpage/Food";
+import Food from "./bookingPages/Foodpage/food";
 
 import AddressForm from "./bookingPages/Foodpage/AddressForm";
 import PaymentPage from "./pages/PaymentPage";
